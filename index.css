@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   margin: 0;
   min-height: 100vh;
+  gap: 1rem;
 }
 
 .brand {
@@ -13,8 +14,7 @@ body {
 
 .pastry {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  gap: 0.25rem;
   display: flex;
   flex-direction: column;
 }
@@ -27,9 +27,8 @@ body {
   border-color: black;
   border-radius: 1rem;
   padding: 0.1rem;
+  margin: 0;
   width: 5em;
-  margin: 0.25rem;
-  margin-top: 0;
   background-color: darkgreen;
   color: white;
 }
@@ -38,11 +37,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 
 .sections {
   display: flex;
-  gap: 0.25rem;
+  gap: 1rem;
 }
 .sections a {
   border: 0.1rem;
@@ -53,8 +53,7 @@ header {
   color: black;
   text-decoration: none;
   font-size: 1.5rem;
-  margin-right: 1rem;
-}
+ }
 
 main {
   flex-grow: 1;
@@ -86,7 +85,6 @@ footer {
   justify-content: center;
   font-weight: bold;
   background-color: darkolivegreen;
-  margin: 1rem;
   border-color: black;
   border-style: solid;
   border-radius: 1rem;
