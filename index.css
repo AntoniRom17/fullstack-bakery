@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.brand {
+  color: darkgreen;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 4rem;
+}
+
+.pastry {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.pastry li {
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1rem;
+  padding: 0.1rem;
+  width: 5em;
+  margin: 0.25rem;
+  margin-top: 0;
+  background-color: darkgreen;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sections {
+  display: flex;
+  gap: 0.25rem;
+}
+.sections a {
+  border: 0.1rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+main h1 {
+  margin-top: 0;
+}
+
+.yap {
+  margin-top: 0.5rem;
+}
+
+.testimonial {
+  background-color: bisque;
+  border-style: ridge;
+  border-radius: 1rem;
+  text-align: center;
+  display: inline-block;
+}
+
+footer {
+  display: flex;
+  margin-top: auto;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: bold;
+  background-color: darkolivegreen;
+  margin: 1rem;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1rem;
+  color: white;
+  padding: 1rem;
+}
